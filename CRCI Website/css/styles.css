@@ -1,0 +1,230 @@
+/* Global */
+
+body {
+    font-family: 'Lato';
+}
+
+/* Header */
+header {
+    margin: 0% 10%;
+}
+
+.logo {
+    height: 150px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Lato';
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    padding: .25em 1em;
+    border-bottom: white solid 1px;
+}
+
+nav a:hover {
+    border-bottom: solid 1px;
+}
+
+
+/* Index */
+
+.hero {
+    position: relative;
+}
+
+.heroImage {
+    width: 100%;
+}
+
+.heroImageDesc {
+    text-align: center;
+}
+
+.heroImageDescBox {
+    width: 300px;
+    background-color: rgba(180, 180, 180, 0.9);
+    padding: 5px 10px;
+    color: white;
+    position: absolute;
+    top: 100px;
+    right: 10px;
+}
+
+.introText {
+    padding: 1em 5em 3em 5em;
+}
+
+
+.introText h4 {
+    font-size: 20pt;
+}
+
+.introText p {
+    font-size: 12pt;
+}
+
+/* About */
+
+.bio {
+    display: flex;
+    padding: 1em 5em 3em 5em;
+}
+
+.bio img {
+    height: 300px;
+    margin-right: 2em;
+}
+
+.bio h5 {
+    margin-block-start: 0em;
+    font-size: 14pt;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.bio a {
+    color: #328589;
+}
+
+.skybetter {
+    padding-top: 2em;
+}
+
+.contributors {
+    padding: 1em 5em 3em 5em;
+}
+
+.contributors h4 {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 12pt;
+    text-align: center;
+}
+
+.contributors h5 {
+    margin-block-end: 0em;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    padding-top: 2em;
+    font-size: 12pt;
+}
+
+.contributors a {
+    color: #328589;
+}
+
+.skybetterDesc {
+    font-style: italic;
+}
+
+/* Podcast */
+
+.heroImageDescBoxPod {
+    width: 300px;
+    background-color: rgba(180, 180, 180, 0.9);
+    padding: 5px 10px;
+    color: white;
+    position: absolute;
+    top: 350px;
+    right: 10px;
+}
+
+.episode {
+    padding: 1em 5em 0em 5em;
+}
+
+.episode h5 {
+    margin-block-end: 0em;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 12pt;
+}
+
+.podcastLinks {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 10pt;
+}
+.podcastLinks a{
+    color: #328589;
+    padding-right: 2em;
+}
+
+.archive {
+    text-align: center;
+}
+
+.archive a{
+    color: #328589;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 10pt;
+}
+
+.sponsor h5 {
+    margin-block-end: 0em;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    padding-top: 4em;
+    font-size: 12pt;
+    text-align: center;
+}
+
+.sponsor img {
+    height: 75px;
+    padding: 25px;
+}
+
+.sponsorImg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Footer */
+
+footer {
+    font-family: 'Lato';
+    color: white;
+    background-color: black;
+    padding: 3em 5em;
+}
+
+footer .photoCredit {
+    margin-top: 0px;
+}
+
+footer .copyright {
+    margin-bottom: 0px;
+}
+
+footer p {
+    margin-block-end: 0em;
+}
+
+footer a{
+    color: #55DCE4;
+}
+
+.instagramLogo {
+    height: 35px;
+}
+
+.mediaLinks {
+    display: flex;
+}
+
+.mediaLinks a {
+    margin-block-start: 0.5em;
+    padding-left: 1em;
+}
