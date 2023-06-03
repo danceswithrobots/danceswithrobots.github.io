@@ -103,6 +103,11 @@ nav a:hover {
 
 .bio a {
     color: #328589;
+    text-decoration: none;
+}
+
+.bio a:hover {
+    text-decoration: underline;
 }
 
 .skybetter {
