@@ -30,6 +30,7 @@ nav a {
     letter-spacing: 0.2em;
     padding: .25em 1em;
     border-bottom: white solid 1px;
+    font-size: 14pt;
 }
 
 nav a:hover {
