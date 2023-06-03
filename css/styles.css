@@ -235,3 +235,82 @@ footer a{
     margin-block-start: 0.5em;
     padding-left: 1em;
 }
+
+/* Small screen devices (600px and above) */
+@media only screen and (max-width: 600px) {
+
+/* Mobile Optimization - Homepage */
+
+    header {
+        text-align: center;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+    
+    nav a {
+       padding: .5em;
+    }
+
+    .heroImage {
+        height: 16em;
+        width: auto;
+    }
+
+    .introText {
+        padding: 2em;
+    }
+
+    footer {
+        padding: 2em;
+    }
+
+    /* Mobile Optimization - About */
+
+    .bio {
+        flex-direction: column;
+        padding: 2em;
+    }
+
+    .bio h5 {
+        text-align: center;
+    }
+
+    .bio img {
+        margin-right: 0px;
+        margin-bottom: 1em;
+        width: auto;
+        height: auto;
+    }
+
+    .contributors {
+        padding: 2em;
+    }
+
+     /* Mobile Optimization - Podcast*/
+
+     .episode {
+        padding: 2em;
+       text-align: center;
+     }
+
+     .podcastLinks {
+        display: flex; 
+        flex-direction: column;
+        text-align: center;
+     }
+
+    .podcastLinks a {
+        padding: 0.5em;
+    }
+
+    .sponsorImg {
+        flex-direction: column;
+    }
+
+    .sponsor img {
+        height: auto;
+        widthL quto;
+    }
+}
