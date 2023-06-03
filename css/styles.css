@@ -28,7 +28,7 @@ nav a {
     color: black;
     text-transform: uppercase;
     letter-spacing: 0.2em;
-    padding: .25em 1em;
+    padding: 0.25em 1em 0.2em 1em;
     border-bottom: white solid 1px;
     font-size: 14pt;
 }
