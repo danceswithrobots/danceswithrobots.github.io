@@ -132,9 +132,10 @@ nav a:hover {
     color: #328589;
 }
 
-#skybetterDesc {
+#skybetterDesc, #michaudDesc, #gowDesc {
     font-style: italic;
 }
+
 
 /* Podcast */
 
