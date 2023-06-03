@@ -257,7 +257,7 @@ footer a{
 
     .heroImage {
         height: 16em;
-        width: auto;
+        width: fit-content;
     }
 
     .introText {
