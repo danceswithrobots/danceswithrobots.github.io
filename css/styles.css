@@ -131,13 +131,14 @@ nav a:hover {
     letter-spacing: 0.2em;
     padding-top: 2em;
     font-size: 12pt;
+    text-align: center;
 }
 
 .contributors a {
     color: #328589;
 }
 
-#skybetterDesc, #michaudDesc, #gowDesc {
+#skybetterDesc, #michaudDesc, #gowDesc, #lawsonDesc, #mosesDesc, #kartikDesc, #hallDesc, #sankaramDesc {
     font-style: italic;
 }
 
@@ -294,7 +295,6 @@ footer a{
 
     .contributors {
         padding: 2em;
-        text-align: center;
     }
 
      /* Mobile Optimization - Podcast*/
