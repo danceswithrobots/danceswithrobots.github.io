@@ -317,6 +317,7 @@ footer a{
 
     .pod {
         display: block;
+        tetx-align: center;
     }
 
      .podcastLinks {
