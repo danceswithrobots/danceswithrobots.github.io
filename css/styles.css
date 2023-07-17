@@ -155,6 +155,10 @@ nav a:hover {
     right: 10px;
 }
 
+.pod {
+    display: flex;
+}
+
 .episode {
     padding: 1em 5em 0em 5em;
 }
