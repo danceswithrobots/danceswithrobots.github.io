@@ -273,9 +273,13 @@ footer a{
        padding: .5em;
     }
 
-    .heroImage {
+/*     .heroImage {
         height: 16em;
         width: fit-content;
+    } */
+
+    .heroImageDescBoxPod {
+        visibility: hidden;
     }
 
     .introText {
@@ -317,7 +321,7 @@ footer a{
 
     .pod {
         display: block;
-        tetx-align: center;
+        text-align: center;
     }
 
      .podcastLinks {
