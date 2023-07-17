@@ -315,6 +315,10 @@ footer a{
        text-align: center;
      }
 
+    .pod {
+        display: block;
+    }
+
      .podcastLinks {
         display: flex; 
         flex-direction: column;
