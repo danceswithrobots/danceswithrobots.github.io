@@ -282,6 +282,10 @@ footer a{
         visibility: hidden;
     }
 
+    .heroImageDescBox {
+        visibility: hidden;
+    }
+
     .introText {
         padding: 2em;
     }
