@@ -33,6 +33,16 @@ nav a {
     font-size: 14pt;
 }
 
+nav div {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    padding: 0.25em 1em 0.1em 1em;
+    border-bottom: white solid 1px;
+    font-size: 14pt;
+}
+
 nav a:hover {
     border-bottom: solid 1px;
 }
