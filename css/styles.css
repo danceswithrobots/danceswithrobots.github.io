@@ -52,6 +52,7 @@ nav a:hover {
   font-family: 'Lato';
     text-transform: uppercase;
   margin: 0;
+    letter-spacing: 0.2em;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
